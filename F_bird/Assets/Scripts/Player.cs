@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     private float jumpForce = 8.0f;
     float h,v;
     private bool saltar = false;
+    
 
     void Start()
     {
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
         {
             saltar = true;
         }
+        
     }   
     
     void FixedUpdate()
