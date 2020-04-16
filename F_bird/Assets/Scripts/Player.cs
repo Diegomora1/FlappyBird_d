@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D bird;
-    private float speed = 100.0f;
-    private float jumpForce = 8.0f;
+    private float speed = 200.0f;
+    private float jumpForce = 10.0f;
     float h,v;
     private bool saltar = false;
     
@@ -31,6 +31,10 @@ public class Player : MonoBehaviour
         
         if(saltar)
         {
+            if(bird.velocity.y > 0.5f)
+            {
+                bird.velocity =  new Vector2(bird.velocity.x, 0.0f);
+            }
             Jump();
             saltar = false;
         }
@@ -41,6 +45,7 @@ public class Player : MonoBehaviour
     {
         bird.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
     }
+
 }
 
 

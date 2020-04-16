@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 681, y: 474}
-  m_MaxSize: {x: 14002, y: 14024}
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 6522
+  controlID: 6335
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 1030
     height: 635
-  m_MinSize: {x: 404, y: 474}
-  m_MaxSize: {x: 10000, y: 14024}
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 6523
+  controlID: 6336
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,10 +151,10 @@ MonoBehaviour:
     y: 0
     width: 1030
     height: 361
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 6524
+  controlID: 6337
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f635ffff2436ffffdefbffffd20b0000242c0000
+      m_ExpandedIDs: defbffffd60b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -295,9 +295,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.205483, y: 4.5083175, z: -0.23828125}
+    m_Target: {x: -2.9211702, y: -0.15156089, z: -0.009765625}
     speed: 2
-    m_Value: {x: 9.205483, y: 4.5083175, z: -0.23828125}
+    m_Value: {x: -2.9211702, y: -0.15156089, z: -0.009765625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -329,9 +329,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 33.33334
+    m_Target: 10.554043
     speed: 2
-    m_Value: 33.33334
+    m_Value: 10.554043
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -388,8 +388,8 @@ MonoBehaviour:
     y: 361
     width: 1030
     height: 274
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -434,20 +434,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Diegomora\Documents\Proyectos Unity\Flappy_Bird\FlappyBird_d\F_bird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 180b0000
-    m_LastClickedID: 2840
-    m_ExpandedIDs: 000000007c090000f60a0000742a000000ca9a3b
+    m_SelectedIDs: fe090000
+    m_LastClickedID: 2558
+    m_ExpandedIDs: 000000007e0900004e0a0000fe0a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -475,7 +475,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c090000f60a0000742a000000ca9a3b
+    m_ExpandedIDs: 000000007e0900004e0a0000fe0a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,8 +500,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 242c0000
-    m_LastClickedInstanceID: 11300
+    m_SelectedInstanceIDs: c2fbffff
+    m_LastClickedInstanceID: -1086
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
